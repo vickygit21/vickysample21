@@ -1,0 +1,60 @@
+.card {
+background-color: rgb(172, 164, 154);
+max-width: 200px;
+border: 1px solid black;
+border-radius: 5px;
+text-align: center;
+margin: 20px;
+padding: 4px;
+display: inline-block;
+}
+.card img{
+  width: 100%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.add-btn{
+  background-color: blue;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-left: 90%;
+  display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+.delete-btn{
+  background-color: crimson;
+  border: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+
+}
+.update-btn{
+ background-color: rgb(32, 142, 185);
+  border: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  
+}

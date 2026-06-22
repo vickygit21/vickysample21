@@ -1,0 +1,43 @@
+.container{
+    width: 350px;
+    margin: 50px auto;
+}
+
+.tabs{
+    display: flex;
+    width: 100%;
+}
+
+.tabs button{
+    flex-direction: column;
+    padding: 12px;
+    border: 1px solid #cccc;
+    border-bottom: none;
+    background: #203d9c;
+    cursor: pointer;
+
+}
+
+.tabs button:first-child{
+border-radius: 10px 0 0 0;
+}
+
+.tabs button:last-child{
+    border-radius: 0 10px 0 0;
+}
+
+form{
+    padding: 25px;
+    border: 1px solid #ccc;
+    background-color: #59e6de;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
